@@ -1,0 +1,44 @@
+{
+  "name": "jibrel-contracts",
+  "version": "1.0.0",
+  "description": "Jibrel platform contracts",
+  "main": "truffle.js",
+  "scripts": {
+    "test": "./node_modules/.bin/truffle test",
+    "console": "./node_modules/.bin/truffle console",
+    "compile": "./node_modules/.bin/truffle compile",
+    "migrate": "./node_modules/.bin/truffle migrate",
+    "lint": "npm run lint:js",
+    "lint:eslint": "node ./node_modules/eslint/bin/eslint --ignore-path .gitignore --ignore-pattern internals/scripts",
+    "lint:js": "npm run lint:eslint -- . ",
+    "lint:staged": "lint-staged",
+    "lint:sol": "./node_modules/.bin/solium -d contracts/",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.js": "npm run lint:eslint --"
+  },
+  "precommit": "lint:staged",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jibrelnetwork/jibrel-platform-contracts.git"
+  },
+  "author": "Jibrel Network <dev@jibrel.network>",
+  "license": "MIT",
+  "keywords": [
+    "jibrel",
+    "jpt",
+    "solidity",
+    "ethereum",
+    "smart",
+    "contracts",
+    "security"
+  ],
+  "dependencies": {
+    "@openzeppelin/contracts": "2.5.0",
+    "@openzeppelin/test-environment": "^0.1.2",
+    "@openzeppelin/test-helpers": "^0.5.4",
+    "@truffle/hdwallet-provider": "^1.0.39",
+    "truffle": "^5.1.29"
+  }
+}
