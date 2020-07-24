@@ -40,5 +40,8 @@
     "@openzeppelin/test-helpers": "^0.5.4",
     "@truffle/hdwallet-provider": "^1.0.39",
     "truffle": "^5.1.29"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5"
   }
 }
