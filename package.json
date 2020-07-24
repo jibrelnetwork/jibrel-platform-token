@@ -1,7 +1,7 @@
 {
-  "name": "jibrel-contracts",
+  "name": "jibrel-platform-token",
   "version": "1.0.0",
-  "description": "Jibrel platform contracts",
+  "description": "Jibrel platform token",
   "main": "truffle.js",
   "scripts": {
     "test": "./node_modules/.bin/truffle test",
@@ -21,7 +21,7 @@
   "precommit": "lint:staged",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jibrelnetwork/jibrel-platform-contracts.git"
+    "url": "https://github.com/jibrelnetwork/jibrel-platform-token.git"
   },
   "author": "Jibrel Network <dev@jibrel.network>",
   "license": "MIT",
@@ -40,5 +40,12 @@
     "@openzeppelin/test-helpers": "^0.5.4",
     "@truffle/hdwallet-provider": "^1.0.39",
     "truffle": "^5.1.29"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5"
+  },
+  "engines": {
+    "node": "^12.18.3",
+    "npm": "^6.14.6"
   }
 }
