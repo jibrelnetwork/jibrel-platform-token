@@ -43,5 +43,9 @@
   },
   "devDependencies": {
     "husky": "^4.2.5"
+  },
+  "engines": {
+    "node": "^12.18.3",
+    "npm": "^6.14.6"
   }
 }
