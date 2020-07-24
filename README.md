@@ -12,6 +12,9 @@ Jibrel Platform Token (JPT) implements ERC20 compliant token.
 
 Jibrel contracts integrates with [Truffle](https://github.com/trufflesuite/truffle) and [Openzeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts). Please install Node.js and npm.
 
+Before executing of `npm run test` target, ensure that you have up & running Ethereum node or ganache.
+The easest way to launch ganache-cli is `npx ganache-cli`.
+
 
 ### Test contracts
 
