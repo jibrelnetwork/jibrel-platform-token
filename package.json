@@ -35,7 +35,7 @@
     "security"
   ],
   "dependencies": {
-    "@openzeppelin/contracts": "2.5.0",
+    "@openzeppelin/contracts": "4.7.2",
     "@openzeppelin/test-environment": "^0.1.2",
     "@openzeppelin/test-helpers": "^0.5.4",
     "@truffle/hdwallet-provider": "^1.0.39",
